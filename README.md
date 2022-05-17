@@ -1,3 +1,3 @@
 # Kokoa Clone 2022
 
-CSS god so much better!
+HTML & CSS got so much better!
