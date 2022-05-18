@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:wght@400;600&family=Roboto+Slab:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  height:100vh;
+  font-family: 'Roboto Slab', serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.frame {
+   border:8px solid #00C6AD;
+   padding:30px;
+  height:900px;
+    width:500px;
+}
+
+.status {
+  display:flex;
+  justify-content:center;
+  margin:20px 20px;
+}
+.status__column {
+  width:100%;
+  margin-bottom:40px;
+}
+.status__column:first-child {
+  width:30px;
+  height:30px;
+}
+.status__column:nth-child(2) span {
+  display:flex;
+  justify-content: center;
+  font-size:27px;
+} 
+.playing-song {
+  display:flex;
+  justify-content:center;
+  margin-bottom:50px;
+}
+.playing-song__image {
+  display:flex;
+  width:200px;
+  height:150px;
+  background-color:#FFBD11;
+  border:3px solid black;
+  border-radius:15%;
+  justify-content:center;
+  align-items:center;
+}
+.playing-song__info {
+  margin-left:30px;
+  height:150px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.playing-song__name {
+  font-size:50px;
+  margin-bottom:20px;
+  font-family: 'Koulen', cursive;
+}
+.playing-song__artist {
+  font-size:20px;
+}
+.buttons {
+  display:flex;
+  justify-content:space-evenly;
+}
+.play__button:hover, .like__button:hover, .addlist__button:hover {
+  background-color:grey;
+}
+.play__button {
+  width:180px;
+  height:70px;
+  border:3px solid black;
+  border-radius:20px 20px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-width:2px 2px 8px 2px;
+}
+.play__button span {
+  margin-left:20px;
+  font-size:20px;
+}
+.like__button, .addlist__button {
+  width:70px;
+  height:70px;
+  border:3px solid black;
+  border-radius:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-width:2px 2px 6px 2px;
+}
+.playlist {
+  margin-top:50px;
+  display:flex;
+  height:400px;
+}
+li {
+  margin-bottom:50px;
+  display:flex;
+}
+.playlist__square {
+  height:50px;
+  width:50px;
+  border:3px solid black;
+  border-radius:20%;
+  margin-right:10px;
+}
+.playlist__song:first-child .playlist__square{
+  border-radius:20%;
+  background-color:red;
+}
+.playlist__song:nth-child(2) .playlist__square{
+  border-radius:20%;
+  background-color:pink;
+}
+.playlist__song:nth-child(3) .playlist__square {
+  background-color:blue;
+}
+.playlist__song:nth-child(4) .playlist__square{
+  border-radius:20%;
+  background-color:mediumspringgreen;
+}
+.playlist__song-info {
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+}
+.playlist__name {
+  font-family: 'Koulen', cursive;
+  font-size:23px;
+}
+.playlist__artist {
+  font-size:12px;
+}
