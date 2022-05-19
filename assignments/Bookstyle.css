@@ -1,0 +1,167 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lobster', cursive;
+  background-color: whitesmoke;
+}
+.title {
+  display:flex;
+  justify-content: space-between;
+  padding:40px 10px;
+  background-color:#F9DC05;
+}
+.title span {
+  font-size:25px;
+}
+.search-box {
+  width:100%;
+  position:absolute;
+  display:flex;
+  justify-content: center;
+  top:90px;
+}
+.search-box__outside {
+  height:50px;
+  width:90%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border:1px solid rgba(0,0,0,0.2);
+}
+.search-box input {
+  width:90%;
+  height:30px;
+  border:none;
+  font-size:15px;
+}
+.search-box input::placeholder {
+  color:rgba(0,0,0,0.2);
+}
+.search-icon {
+  color:rgba(0,0,0,0.2);
+}
+.today-book {
+  margin:30px 20px;
+  margin-top:80px;
+  font-size:30px;
+}
+.today-book__info {
+  margin:30px 20px;
+  display:flex;
+
+}
+.cleancode {
+  width:150px;
+  height:220px;
+}
+.cleancode__info {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left:40px;
+}
+.cleancode__name {
+  font-size:25px;
+  margin-bottom: 10px;
+}
+.cleancode__author {
+  font-size:18px;
+  color:rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+}
+.cleancode__star {
+  color:#F9DC05;
+  margin-bottom: 20px;;
+}
+.cleancode__authinfo {
+  display:flex;
+  margin-bottom: 20px;
+}
+.cleancode__Journey, .cleancode__Biography {
+  width:100px;
+  height:40px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  border-radius:10px;
+  background-color: rgba(0,0,0,0.1);
+}
+.cleancode__buttons {
+  display:flex;
+}
+.cleancode__bookmark {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background-color:#F9DC05;
+  margin-right:30px;
+}
+.cleancode__buy {
+  width:120px;
+  height:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color:white;
+  border-radius: 10px;
+}
+.book-recommend {
+  margin-left:20px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.book-recommend-list{
+  margin-left:10px;
+}
+.book-recommend-book{
+  margin-left:30px;
+  width:100px;
+  height:150px;
+}
+.book__star {
+  margin-left:35px;
+  margin-top:10px;
+  display:flex;
+  color:#F9DC05;
+}
+.book1, .book2, .book3 {
+  margin-right:45px;
+  border-radius: 10px;
+}
+.recommend__author {
+  margin:15px 20px;
+  font-size:25px;
+  margin-bottom:30px;
+}
+.pop__author {
+  margin:10px 30px;
+  display:flex;
+}
+.nico{
+  width:130px;
+  height:150px;
+  margin-right:20px;
+}
+.nico__info {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nico__name {
+  font-size: 25px;
+  margin-bottom:20px;
+}
+.nico__exp {
+  color:rgba(0,0,0,0.2);
+  font-size:15px;
+}
