@@ -1,0 +1,99 @@
+.second__screen {
+    background-color:white;
+    padding:10px;
+    width:400px;
+    height:85%;
+    border-radius: 20px;
+    padding:30px;
+    padding-top:40px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.4);
+}
+.playing-song__album {
+    margin-top:80px;
+    display: flex;
+    justify-content: center;
+}
+.playing-song__album-img {
+    width: 280px;
+    height:280px;
+    border-radius: 20px;
+    box-shadow:1px 1px 30px black;
+}
+.playing-song__info {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:80px;
+}
+.playing-song__info__name {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom:15px;
+}
+.playing-song__info__artist {
+    color:rgba(0,0,0,0.5)
+}
+.time-bar {
+    margin-top:30px;
+}
+.time-bar__time {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:10px;
+}
+.time-bar__time__start,.time-bar__time__end {
+    font-size:13px;
+    color:rgba(0,0,0,0.5);
+}
+.time-bar__range {
+    display: flex;
+    align-items: center;
+}
+.time-bar__range__passed {
+    width:150px;
+    height:5px;
+    background-color: black;
+    border-radius: 5px 0 0 5px;
+}
+.time-bar__range__current {
+    height:14px;
+    width:14px;
+    border-radius: 7px;
+    background-color: black;
+}
+.time-bar__range__after {
+    width:210px;
+    height:5px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 0 5px 5px 0;
+}
+.bottom__buttons {
+    margin-top:80px;
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom__buttons__repeat {
+    color:rgba(0,0,0,0.3);
+    margin-right:10px;
+}
+.bottom__buttons__play {
+    color:white;
+    display:block;
+    width:60px;
+    height:60px;
+    border-radius: 30px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px black;
+}
+.bottom__buttons__next {
+    margin-left:10px;
+}
+.bottom__buttons__shuffle {
+    margin-left:10px;
+    color:rgba(0,0,0,0.3);
+}
