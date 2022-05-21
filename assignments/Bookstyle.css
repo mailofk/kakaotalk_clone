@@ -3,11 +3,26 @@
 * {
   box-sizing: border-box;
 }
+html {
+  height:100%;
+}
 body {
   font-family: 'Lobster', cursive;
   background-color: whitesmoke;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height:100%;
 }
+.body-part {
+  height:100%;
+  width:500px;
+  border-left :3px solid tomato;
+  border-right : 3px solid tomato;
+}
+
 .title {
+  width:100%;
   display:flex;
   justify-content: space-between;
   padding:40px 10px;
