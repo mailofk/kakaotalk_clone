@@ -1,8 +1,9 @@
 .screen-header {
   display:flex;
-  padding:var(--horizontao-space);
+  padding:var(--horizontal-space);
   justify-content:space-between;
   align-items: center;
+  margin-bottom:15px;
 }
 .screen-header__title {
   font-size: 32px;
@@ -10,4 +11,14 @@
 }
 .screen-header__icons span{
   margin-left:25px;
+  position:relative;
+}
+.cog__new {
+  width:6px;
+  height:6px;
+  background-color: tomato;
+  border-radius:3px;
+  position:absolute;
+  bottom:20px;
+  left:25px;
 }
